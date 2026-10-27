@@ -5,10 +5,10 @@
 
 | Item | Isi |
 |---|---|
-| Nama / NIM | Mokhamad Lutfi / [ISI NIM] |
+| Nama / NIM | Mokhamad Lutfi / 223140172 |
 | Bidang dan topik | Software Engineering → Programming (03.04) |
-| Judul sementara | [ISI] |
-| Dosen Pembimbing Utama / Anggota | [ISI] / [ISI] |
+| Judul | [Rancang Bangun Sistem Informasi dan Layanan Surat Desa Tempursari Berbasis Web Menggunakan Metode Prototyping] |
+| Dosen Pembimbing Utama / Anggota | [Hasyim Asy’ari, S.Kom., M.Kom.] / [ISI] |
 | Masalah yang ingin diselesaikan (1–3 kalimat) | [ISI] |
 | Objek / sumber data penelitian | [ISI] |
 | Jenis penelitian | [ISI: rancang bangun / eksperimen / studi komparatif / …] |

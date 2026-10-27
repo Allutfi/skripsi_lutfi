@@ -30,7 +30,7 @@
 | Bidang minat | 03 – Software Engineering |
 | Topik penelitian | 03.04 – Programming |
 | Tahap saat ini | Menyusun proposal skripsi |
-| Judul (isi bila sudah ada) | judul : Rancang Bangun Sistem Informasi dan Layanan Surat Desa Tempursari Berbasis Web Menggunakan Metode Prototyping |
+| Judul | Rancang Bangun Sistem Informasi dan Layanan Surat Desa Tempursari Berbasis Web Menggunakan Metode Prototyping |
 | Dosen Pembimbing Utama | Hasyim Asy’ari, S.Kom., M.Kom. |
 | Dosen Pembimbing Anggota | _isi_ |
 | Jenis penelitian (isi bila sudah ada) | Rancang Bangun (System Engineering / Software Development) |

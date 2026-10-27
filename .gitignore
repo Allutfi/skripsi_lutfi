@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+# draf dan hasil bersifat pribadi; hapus baris ini bila ingin di-commit
+draft/*
+!draft/.gitkeep
+!draft/_contoh-uji-pipeline.md
+output/*
+!output/.gitkeep
+# jurnal PDF berhak cipta + teks hasil ekstraksi: pribadi, jangan di-commit
+referensi/pdf/*
+!referensi/pdf/.gitkeep
+referensi/teks/*
+!referensi/teks/.gitkeep

@@ -53,18 +53,20 @@ Pedoman Bab 5.5 membolehkan AI hanya sebagai alat bantu: pengembangan ide, penyu
 AI **tidak boleh menggantikan** analisis, interpretasi data, dan penyusunan pembahasan. Hasil deteksi AI pada Bab IV (S1) maksimal 30%.
 
 Maka:
-- **Boleh:** memberi outline, pertanyaan pemandu, checklist, umpan balik, koreksi ejaan/tata tulis, contoh perbaikan **1–2 kalimat** sebagai ilustrasi, penjelasan konsep.
+- **Boleh:** memberi outline, pertanyaan pemandu, checklist, umpan balik, koreksi ejaan/tata tulis, contoh perbaikan **1–2 kalimat** sebagai ilustrasi (wajib bebas dari AI slop/frasa klise AI sesuai `knowledge/gaya-bahasa.md`), penjelasan konsep.
 - **Jangan:** menulis seluruh subbab/bab menggantikan mahasiswa, membuat paragraf analisis atau pembahasan utuh, atau membuat data/hasil pengujian palsu.
 - Jika diminta menulis penuh, tolak dengan ramah, jelaskan alasannya (pedoman + risiko deteksi AI + mahasiswa harus bisa mempertanggungjawabkan isi saat ujian), lalu tawarkan outline + pertanyaan pemandu.
 
 ## 7. Skrip yang tersedia (jalankan dari root proyek)
 ```
-python scripts/docx_ke_md.py   draft/<file>.docx        # agar draf bisa dibaca → output/teks/<file>.md
-python scripts/cek_format.py   draft/<file>.docx        # format → output/laporan-format-*.md
-python scripts/cek_referensi.py draft/<file>.docx       # daftar pustaka → output/laporan-referensi-*.md
-python scripts/buat_docx.py    draft/<file>.md [--pdf]  # Markdown → .docx (+PDF) berformat pedoman
-python scripts/ekstrak_teks.py dokumen-kampus/          # PDF/DOCX → teks agar terbaca (juga referensi/pdf/)
-python scripts/buat_daftar_sumber.py [--pustaka]        # perbarui referensi/daftar-sumber.md (+ draf Daftar Pustaka)
+python scripts/docx_ke_md.py      draft/<file>.docx        # agar draf bisa dibaca → output/teks/<file>.md
+python scripts/cek_format.py      draft/<file>.docx        # format → output/laporan-format-*.md
+python scripts/cek_gaya_bahasa.py draft/<file>             # Anti-AI Slop & gaya bahasa → output/laporan-gaya-bahasa-*.md
+python scripts/cek_referensi.py    draft/<file>.docx       # daftar pustaka → output/laporan-referensi-*.md
+python scripts/cari_openalex.py   "<topik>" [--buat-catatan] # cari jurnal terindeks OpenAlex (5 thn terakhir)
+python scripts/buat_docx.py       draft/<file>.md [--pdf]  # Markdown → .docx (+PDF) berformat pedoman
+python scripts/ekstrak_teks.py    dokumen-kampus/          # PDF/DOCX → teks agar terbaca (juga referensi/pdf/)
+python scripts/buat_daftar_sumber.py [--pustaka]           # perbarui referensi/daftar-sumber.md (+ draf Daftar Pustaka)
 ```
 Tambahkan `--tahap laporan` hanya bila sudah naik tahap. Jika skrip gagal karena paket belum terpasang,
 minta mahasiswa menjalankan `pip install -r requirements.txt` (lihat `README.md`).

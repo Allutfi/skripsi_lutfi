@@ -106,7 +106,9 @@ Jika tools-mu tidak membaca otomatis, sertakan `AGENTS.md` sebagai konteks di aw
 |---|---|---|
 | `docx_ke_md.py draft/x.docx` | Mengubah Word jadi Markdown agar agent bisa membaca (agent tidak bisa membaca `.docx`) | `output/teks/x.md` |
 | `cek_format.py draft/x.docx` | Kertas A4, margin 4-4-3-3, TNR 12, spasi 1,5, indentasi 0,75, judul bab/subbab, struktur judul wajib, tabel/gambar, kata tidak baku, estimasi halaman | `output/laporan-format-*.md` |
+| `cek_gaya_bahasa.py draft/x` | Anti-AI Slop, deteksi frasa klise AI generator, kalimat > 30 kata, em dash berlebih, rujukan terlarang | `output/laporan-gaya-bahasa-*.md` |
 | `cek_referensi.py draft/x.docx` | ≥ 15 referensi, ≥ 60% jurnal/prosiding, ≥ 10 jurnal, ≥ 80% ≤ 10 tahun, urutan A–Z, kutipan ↔ pustaka | `output/laporan-referensi-*.md` |
+| `cari_openalex.py "<topik>"` | Cari jurnal/prosiding terindeks OpenAlex API (5 tahun terakhir) + opsi `--buat-catatan` | Ringkasan terminal / `referensi/catatan/*.md` |
 | `buat_docx.py draft/x.md [--pdf]` | Markdown → `.docx` berformat pedoman (+ PDF) | `output/x.docx`, `output/x.pdf` |
 | `ekstrak_teks.py <file/folder>` | PDF/DOCX → teks Markdown (dokumen kampus, jurnal) | `dokumen-kampus/teks/`, `referensi/teks/` |
 | `buat_daftar_sumber.py [--pustaka]` | Indeks sumber + progres target; draf Daftar Pustaka APA dari sumber terverifikasi | `referensi/daftar-sumber.md`, `output/daftar-pustaka-draf.md` |

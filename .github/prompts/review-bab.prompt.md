@@ -14,7 +14,8 @@ Langkah:
    - **Bab 3** → *Objek* (4.2) dan *Metode Penelitian* (4.4) **plus empat aspek topik Programming** (Bagian 3.4): desain/perancangan, implementasi, pengujian terukur kuantitatif, inovasi. Cek metode pengembangan sistem, jadwal, dan batas ≤ 15 halaman.
 4. Jalankan `python scripts/cek_referensi.py draft/<file>` bila bab memuat kutipan dan bagian Daftar Pustaka sudah ada; gabungkan temuannya.
    Cocokkan kutipan di bab dengan catatan di `referensi/catatan/` (AGENTS.md Bagian 10): tandai kutipan yang sumbernya belum ada atau belum terverifikasi.
-5. Tulis laporan ke `output/review-bab<N>-<nama>-<YYYYMMDD>.md` dengan format di AGENTS.md Bagian 8.
+5. Jalankan `python scripts/cek_gaya_bahasa.py draft/<file>` untuk mendeteksi pola teks AI generatif (Anti-AI Slop), kalimat berbelit (>30 kata), atau rujukan terlarang. Sertakan skor kealamian tulisan dan daftar kalimat yang perlu diperbaiki.
+6. Tulis laporan ke `output/review-bab<N>-<nama>-<YYYYMMDD>.md` dengan format di AGENTS.md Bagian 8.
 
 Aturan: jangan menulis ulang seluruh bab. Contoh perbaikan hanya 1–2 kalimat sebagai ilustrasi.
 Akhiri dengan ringkasan temuan utama di chat dan path file laporan.

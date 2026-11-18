@@ -7,13 +7,15 @@ Pegangan: [AGENTS.md](../../AGENTS.md) Bagian 10, [daftar sumber](../../referens
 
 Langkah:
 1. Baca `referensi/daftar-sumber.md` agar tidak merekomendasikan yang sudah ada, dan lihat kekurangan terhadap target
-   (jumlah, % jurnal/prosiding, jumlah jurnal, % ≤ 10 tahun).
-2. **Jika kamu punya alat pencarian/akses web**: cari sumber ilmiah (jurnal/prosiding terindeks, terbit ≤ 10 tahun, relevan dengan topik Programming-ku).
-   Untuk tiap kandidat, buka halaman sumbernya dan pastikan penulis, judul, tahun, jurnal, dan **tautan/DOI** benar-benar ada.
-   Buang kandidat yang tidak bisa kamu verifikasi.
-3. **Jika kamu tidak punya akses web**: katakan terus terang, **jangan menyebut judul/penulis dari ingatan**.
-   Berikan saja kata kunci pencarian (Indonesia dan Inggris), operator pencarian, dan mesin pencari yang cocok
-   (Google Scholar, Garuda, SINTA, IEEE Xplore, ScienceDirect, ACM Digital Library), lalu tunggu saya menempel hasilnya.
+   (jumlah, % jurnal/prosiding, jumlah jurnal, % ≤ 5 tahun).
+2. **Pencarian ilmiah otomatis**: jalankan `python scripts/cari_openalex.py "<topik>" --tahun-mulai 2022 --limit 5`
+   untuk mengambil metadata jurnal terindeks (5 tahun terakhir sesuai catatan pembimbing).
+   Jika butuh langsung membuat draft catatan, tambahkan argumen `--buat-catatan`.
+   Untuk pencarian web tambahan, buka halaman sumber dan pastikan penulis, judul, tahun, jurnal, dan **tautan/DOI** valid.
+   Buang kandidat yang tidak bisa diverifikasi.
+3. **Jika tidak ada koneksi**: katakan terus terang, **jangan menyebut judul/penulis dari ingatan**.
+   Berikan kata kunci pencarian (Indonesia dan Inggris), operator pencarian, dan rekomendasi mesin pencari
+   (Google Scholar, Garuda, SINTA, IEEE Xplore, ScienceDirect), lalu tunggu mahasiswa menempelkan hasilnya.
 4. Sajikan maksimal 5–8 kandidat dalam tabel: sitasi APA, jenis, tahun, tautan, dan **satu kalimat alasan relevansi**
    (berdasarkan apa yang benar-benar terbaca: judul/abstrak).
 5. Setelah saya memilih, jalankan alur `/tambah-sumber` untuk yang saya pilih. Kandidat yang kamu rekomendasikan diberi

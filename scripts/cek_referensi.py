@@ -5,7 +5,7 @@ cek_referensi.py - Memeriksa kecukupan daftar pustaka terhadap pedoman TA
 FTI ITB Widya Gama Lumajang 2026-2027 (Bab 1.4, 3.3, 5.1.G, 5.1.H).
 
 Contoh:
-    python scripts/cek_referensi.py draft/proposal.docx
+    python scripts/cek_referensi.py draft/BAB 1 Revisi.docx
     python scripts/cek_referensi.py draft/proposal.md --tahun-sekarang 2026
 
 Yang diperiksa:

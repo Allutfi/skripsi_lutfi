@@ -24,7 +24,7 @@ FORMAT = {
     "right_offset_cm": 1.5,         # ... dan 1,5 cm dari tepi kanan
     "footer_distance_cm": 1.0,      # nomor halaman judul bab: 1 cm dari tepi bawah
     "pustaka_hanging_cm": 1.5,      # baris kedua daftar pustaka menjorok 1,5 cm
-    "table_font_pt": 12,
+    "table_font_pt": 11,
 }
 
 # Pedoman tidak mengatur rata teks. "justify" lazim di skripsi; ganti "left" bila perlu.
@@ -114,9 +114,9 @@ REFERENSI = {
     "saran_max_total": 20,
     "min_pct_jurnal_prosiding": 60,
     "min_jurnal": 10,           # Bab 1.4: minimal 10 sumber dari jurnal ilmiah
-    "min_pct_terbaru": 80,      # >= 80% terbit dalam 10 tahun terakhir
-    "tahun_batas": 10,
-    "tahun_preferensi": 5,      # Bab 1.4 menyebut 5 hingga 10 tahun terakhir
+    "min_pct_terbaru": 80,      # >= 80% terbit dalam 5 tahun terakhir (arahan dosen pembimbing)
+    "tahun_batas": 5,           # Arahan dosen: 5 tahun terakhir (2022-2026)
+    "tahun_preferensi": 5,      # Bab 1.4 menyebut 5 hingga 10 tahun terakhir (dosen minta 5 tahun)
 }
 
 # ---------------------------------------------------------------------------

@@ -155,7 +155,7 @@ Ini adalah kriteria **minimum** yang harus ada di dokumen proposal.
 ### 4.5 Kecukupan Pustaka
 1. Minimal **15–20 referensi ilmiah** yang relevan.
 2. Minimal **60%** berasal dari jurnal ilmiah atau prosiding terindeks.
-3. Minimal **80%** terbit dalam **10 tahun terakhir**.
+3. Minimal **80%** terbit dalam **5 tahun terakhir** (pedoman umum menulis 10 tahun, tetapi dosen pembimbing secara tegas meminta 5 tahun terakhir, 2022–2026).
 4. Referensi utama berasal dari artikel penelitian yang berkaitan langsung dengan topik.
 5. Gaya sitasi konsisten (APA/IEEE sesuai pedoman prodi, lihat Bagian 9: yang dipakai adalah **APA**).
 
@@ -288,7 +288,7 @@ Tingkat 1: angka Arab (1, 2, 3); tingkat 2: 1.1, 1.2; tingkat 3: 1.1.1, 1.1.2; t
 
 ### 8.8 Kutipan
 - Kutipan memakai interpretasi, argumen, dan bahasa penulis sendiri; sumber lengkap di daftar pustaka.
-- **Sumber kutipan maksimal 10 tahun terakhir.** Kutipan dari buku teks diikuti nama penulis, tahun, dan halaman.
+- **Sumber kutipan maksimal 5 tahun terakhir** (sesuai arahan dosen pembimbing). Kutipan dari buku teks diikuti nama penulis, tahun, dan halaman.
 - **Kutipan langsung ≤ 4 baris:** masuk dalam teks, spasi 2 (sesuai tata letak teks), diapit tanda kutip, diikuti (penulis, tahun: halaman).
 - **Kutipan langsung > 4 baris:** dipisah dari teks dengan jarak 2,5 spasi, jarak antarbaris kutipan 1 spasi, tanda kutip opsional, diikuti identitas sumber.
 
@@ -386,7 +386,7 @@ Gunakan format berikut saat mereview. Beri status: ✅ Terpenuhi | ⚠️ Kurang
 **E. Kecukupan Pustaka**
 - [ ] 15–20 referensi ilmiah relevan (minimum)
 - [ ] ≥ 60% jurnal/prosiding terindeks (dan setidaknya 10 dari jurnal ilmiah, lihat Bagian 12)
-- [ ] ≥ 80% terbit ≤ 10 tahun terakhir
+- [ ] ≥ 80% terbit ≤ 5 tahun terakhir (khususnya 2022–2026, arahan dosen pembimbing)
 - [ ] Referensi utama = artikel penelitian terkait langsung
 - [ ] Sitasi di teks konsisten dengan daftar pustaka; gaya APA
 
@@ -413,7 +413,7 @@ Agent wajib memberi tahu mahasiswa bila tugas menyentuh poin berikut, dan memaka
 | # | Poin | Isi pedoman | Default yang dipakai agent |
 |---|---|---|---|
 | 1 | Jumlah referensi | Bab 1.4: skripsi wajib ≥ **10 sumber dari jurnal ilmiah**; Bab 3.3: **15–20 referensi** relevan dengan ≥ 60% jurnal/prosiding | Pakai 15–20 referensi total, minimal 60% jurnal/prosiding, dan minimal 10 di antaranya jurnal ilmiah |
-| 2 | Usia referensi | Bab 1.4: terbit dalam "5 hingga 10 tahun terakhir"; Bab 3.3: ≥ 80% dalam 10 tahun terakhir; Bab 5.1.G: sumber kutipan maks. 10 tahun | Utamakan terbitan 5 tahun terakhir, pastikan ≥ 80% tidak lebih tua dari 10 tahun, dan semua kutipan ≤ 10 tahun |
+| 2 | Usia referensi | Bab 1.4: terbit dalam "5 hingga 10 tahun terakhir"; Bab 3.3: ≥ 80% dalam 10 tahun terakhir; Dosen pembimbing mewajibkan: **5 tahun terakhir** | Wajib terbitan 5 tahun terakhir (2022–2026), sesuai arahan tegas dosen pembimbing |
 | 3 | Penomoran halaman isi | Bab 5.1.B: "BAB 1 hingga BAB 5 diberi nomor ... angka **Romawi** dimulai dari I", sedangkan halaman pengantar juga Romawi kecil | Redaksinya janggal (kemungkinan salah ketik, lazimnya Bab 1 dst. memakai angka Arab). **Tanyakan ke pembimbing**; jangan diputuskan sendiri oleh agent |
 | 4 | Gaya sitasi | Tabel 3.22 menyebut "APA/IEEE sesuai pedoman prodi"; Bab 4.3 dan 5.1.H menetapkan **APA** | Pakai **APA** |
 | 5 | Jumlah halaman | Bab 1 ≤ 5, Bab 2 ≤ 15, Bab 3 ≤ 15 | Patuhi batas ini |
@@ -450,7 +450,7 @@ Agent wajib memberi tahu mahasiswa bila tugas menyentuh poin berikut, dan memaka
 
 | Item | Nilai |
 |---|---|
-| Referensi proposal | 15–20; ≥60% jurnal/prosiding; ≥80% ≤10 tahun; ≥10 jurnal ilmiah |
+| Referensi proposal | 15–20; ≥60% jurnal/prosiding; ≥80% ≤5 tahun (arahan dosen); ≥10 jurnal ilmiah |
 | Halaman proposal | Bab 1 ≤5, Bab 2 ≤15, Bab 3 ≤15 |
 | Font / spasi | Times New Roman 12 pt / proposal 1,5 spasi |
 | Margin | Atas 4 cm, kiri 4 cm, kanan 3 cm, bawah 3 cm |

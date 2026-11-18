@@ -18,4 +18,4 @@
 | Target tanggal ujian proposal | [ISI] |
 
 ## Catatan dari dosen pembimbing
-- [ISI: komentar revisi terbaru, tanggal]
+- 2026-11-08: Dosen pembimbing meminta referensi dibatasi hanya 5 tahun terakhir saja (2022–2026), bukan 10 tahun terakhir. Semua kutipan dan daftar pustaka wajib memprioritaskan terbitan 5 tahun terakhir.
